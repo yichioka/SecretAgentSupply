@@ -2,8 +2,7 @@ body {
   font-size: 18px;
   color: white;
   background-color: black;
-  width: 2950px;
-  height: 1659px;
+
 }
 
 header {
@@ -11,6 +10,10 @@ header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   display: flex;
   align-items: center;
+
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: cover;
 }
 
 
