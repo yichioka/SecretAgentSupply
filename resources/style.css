@@ -16,18 +16,14 @@ header {
   background-size: cover;
 }
 
-
-
-
 .main-banner {
   width: 960px;
-
 }
 
+
+
+
 .banner-container {
-  align-items: center;
-
-
   height: 25rem;
 }
 
@@ -54,6 +50,8 @@ header {
 .new-arrival {
   position: relative;
 
+
+
   margin-top: 9rem;
   padding: 2rem 3rem;
   width: 20rem;
@@ -75,6 +73,10 @@ header {
 
 nav {
   background-color: firebrick;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 nav span {
