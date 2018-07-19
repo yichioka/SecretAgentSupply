@@ -8,20 +8,17 @@ body {
 header {
 
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-  display: flex;
-  align-items: center;
+  
+
 
   background-repeat: no-repeat;
   justify-content: center;
   background-size: cover;
 }
 
-.main-banner {
+.container {
   width: 960px;
 }
-
-
-
 
 .banner-container {
   height: 25rem;
@@ -29,9 +26,10 @@ header {
 
 .logo {
   background-color: black;
-  align-items: center;
-  display: flex;
+
+
   padding-left: 30px;
+  margin: 0 auto;
 }
 
 .logo img {
